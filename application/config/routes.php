@@ -1,0 +1,15 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+$route['default_controller'] = '/app/home';
+$route['404_override'] = '';
+$route['translate_uri_dashes'] = TRUE;
+
+// categorias
+$route['c/(:any)'] = 'app/home/categories/$1';
+
+
+//login
+$route['login'] = 'app/login/index';
+$route['verify/account'] = 'app/login/login';
+$route['logout'] = 'app/login/logout';
