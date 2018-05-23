@@ -3,20 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title><?php echo $title_page; ?></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="<?php echo base_url()?>asset/images-app/other/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="<?php echo base_url()?>asset/css/master.css">
      <link rel="stylesheet" href="<?php echo base_url()?>asset/css/materialize.css">
-     <link rel="stylesheet" href="<?php echo base_url()?>asset/css/sweet-alert.css">
-     <link rel="stylesheet" href="<?php echo base_url()?>asset/css/jquery.dynatable.css">
 
      <!-- Compiled and minified JavaScript -->
 
      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
      <script type="text/javascript" src="<?php echo base_url();?>asset/js/init.js?v=1"></script>
-     <script type="text/javascript" src="<?php echo base_url();?>asset/js/sweet-alert.js?v=1"></script>
-     <script type="text/javascript" src="<?php echo base_url();?>asset/js/jquery.dynatable.js?v=1"></script>
   </head>
   <body class="">
     <style>

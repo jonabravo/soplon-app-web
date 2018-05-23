@@ -12,7 +12,8 @@ class Home extends CI_controller{
     $data = ['title_page' => 'Soplón app'];
     $this->load->view('includes/head', $data)
                ->view('includes/nav')
-               ->view('home/index');
+               ->view('home/index')
+               ->view('includes/footer_view', $data);
   }
 
   public function categories($category){
@@ -24,6 +25,7 @@ class Home extends CI_controller{
     //echo "<pre>"; print_r($data['links']);die();
     $this->load->view('includes/head', $data)
                ->view('includes/nav')
-               ->view('category/index', $data);
+               ->view('category/index', $data)
+               ->view('includes/footer_view', $data);
   }
 }

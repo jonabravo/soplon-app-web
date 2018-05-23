@@ -1,3 +1,6 @@
+<?php
+  $this->load->view('login/index');
+?>
 </main>
 <footer class="page-footer" style="background-color:#fafbfc;">
           <div class="footer-copyright grey-text" style="background-color:#fafbfc !important;">
@@ -7,6 +10,6 @@
             </div>
           </div>
         </footer>
-        
+
 </body>
 </html>

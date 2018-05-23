@@ -41,7 +41,15 @@
               <span>Push</span><br>
           </form>
           <br>
+          <?php
+          if($this->session->userdata('nombres')){
+          ?>
           <a href="#" class="btn blue waves-block">Listo, notificame</a>
+          <?php
+        }else{
+          ?>
+          <a class="btn blue waves-effect waves-light  modal-trigger" href="#loginModal">Listo, notificame</a>
+          <?php } ?>
         </div>
       </div>
     </div>

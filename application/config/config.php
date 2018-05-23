@@ -23,8 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = '';
-$config['name_app'] = 'KABOOM';
+$config['base_url'] = 'http://localhost/soplon-app/';
+$config['name_app'] = 'Soplón';
 /*
 |--------------------------------------------------------------------------
 | Index File
