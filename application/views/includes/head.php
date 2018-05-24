@@ -8,7 +8,7 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="<?php echo base_url()?>asset/css/master.css">
      <link rel="stylesheet" href="<?php echo base_url()?>asset/css/materialize.css">
-
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
      <!-- Compiled and minified JavaScript -->
 
      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

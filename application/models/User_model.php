@@ -12,18 +12,10 @@ class User_model extends CI_Model{
     * @return $response  array con la información del usuario
     */
     public function get_user($user_id){
-      $q = $this->db->select('
-                  name,
-                  surnames,
-                  email,
-                  phone_number,
-                  image_profile,
-                  username,
-                  account_status
-                  ')
-                ->where('id', $user_id)
-                ->get('user');
+      $q = $this->db->select('*')
+                ->where('id_usuarios', $user_id)
+                ->get('usuarios');
 
-      return $q->result_array();
+      return $q->result_array()[0];
     }
 }
