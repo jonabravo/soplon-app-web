@@ -11,7 +11,7 @@ class Login extends CI_Controller{
 
     $q = $this->db->select('*')
                   ->where('email' , $login['email'])
-                  //->where('password', md5($login['password']))
+                  ->where('password', md5($login['password']))
                   ->get('usuarios');
 
     if($q->num_rows() > 0){

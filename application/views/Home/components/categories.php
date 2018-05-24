@@ -1,3 +1,14 @@
+<?php
+if($this->session->userdata('register')){
+  ?>
+  <section>
+    <div class="container center">
+      <h5><?= $this->session->userdata('register') ?></h5>
+    </div>
+  </section>
+  <?php
+}
+?>
 <section class="categories-bg">
   <div class="container">
     <div class="row">
